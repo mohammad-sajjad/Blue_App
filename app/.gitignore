@@ -1,0 +1,90 @@
+/build
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java/Kotlin class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+captures/
+
+# Gradle
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/caches/
+.gradle/daemon/
+.gradle/native/
+.gradle/locks/
+.gradle/logs/
+gradle-app.setting
+
+# Signing keys (DO NOT COMMIT)
+**/keystore.*
+**/*.jks
+**/*.keystore
+**/debug.keystore
+
+# Android Studio
+.idea/
+.idea/*/
+*.iml
+*.iws
+*.ipr
+*.hprof
+*.log
+*.pyc
+
+# Local configuration file (sdk path etc.)
+local.properties
+
+# MacOS & Linux
+.DS_Store
+*.swp
+*~
+.cache/
+.config/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Kotlin specific
+*.kotlin_module
+
+# Firebase
+.firebase/
+*.firebase/
+
+# Jetpack Compose Compiler Cache
+*.kotlin_tooling_metadata
+
+# IntelliJ
+
+# Proguard
+proguard/*.log
+
+# Crashlytics / Fabric
+crashlytics-build.properties
+fabric.properties
+
+# NDK
+obj/
+.externalNativeBuild/
+
+# Logs and temp
+*.tmp
+
+# Test result files
+test-output/
